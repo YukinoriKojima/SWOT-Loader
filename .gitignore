@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv_sword/
+
+# Data (large downloads / generated outputs)
+data/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
