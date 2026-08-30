@@ -5,6 +5,11 @@ from config import SWORD_csv_file, Alloc_file, Allocated_csv_file
 import os
 import pandas as pd
 
+
+print(SWORD_csv_file)
+print(Alloc_file)
+print(Allocated_csv_file)
+
 # original SWORD table: label_from_zero, lat, lon, reach_id
 orig = pd.read_csv(SWORD_csv_file())
 
